@@ -11,7 +11,10 @@ type Article = {
 };
 
 async function getHelpArticles(): Promise<Article[]> {
-  const res = await fetch('http://127.0.0.1:8000/api/help-center/articles', {
+  
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/help/`,
+    
+    {
     cache: 'no-store',
   });
 
