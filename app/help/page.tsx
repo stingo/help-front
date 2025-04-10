@@ -1,5 +1,4 @@
 import HelpSidebar from '../../components/HelpSidebar';
-
 export default function HelpPage() {
   return (
     <div className="flex min-h-screen">

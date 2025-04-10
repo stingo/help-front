@@ -1,4 +1,4 @@
 {
-  "/help/[slug]/edit/page": "app/help/[slug]/edit/page.js",
-  "/help/[slug]/page": "app/help/[slug]/page.js"
+  "/help/[slug]/page": "app/help/[slug]/page.js",
+  "/help/[slug]/edit/page": "app/help/[slug]/edit/page.js"
 }

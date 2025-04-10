@@ -189,7 +189,6 @@ export default function HelpCenterPage() {
               Delete
             </button>
           </div>
-
           <article suppressHydrationWarning={true}>
             <h2 className="text-2xl font-bold mb-2">{article.title}</h2>
             {article.date_formatted && (
